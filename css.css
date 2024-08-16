@@ -1,16 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+}
+body {
   background-color: black;
 }
 #mynavbar {
-  margin-top: 0px;
   background-color: rgba(255, 255, 255, 0.5);
   height: 50px;
   width: 100%;
-  position: fixed;
   top: 0px;
+  position: fixed;
+  z-index: 30;
 }
+
 div {
   margin-top: 100px;
   background-color: aqua;
