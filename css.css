@@ -4,7 +4,16 @@
   background-color: black;
 }
 #mynavbar {
+  margin-top: 0px;
   background-color: rgba(255, 255, 255, 0.5);
   height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+div {
+  margin-top: 100px;
+  background-color: aqua;
+  height: 500px;
   width: 100%;
 }
