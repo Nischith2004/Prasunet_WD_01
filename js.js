@@ -10,9 +10,8 @@ as.forEach((a) => {
 });
 
 window.addEventListener("scroll", () => {
-  console.log("aghgbhnj");
   if (window.scrollY > 50) {
-    console.log("aghgbhnj");
+    mynavbar.style.backgroundColor = "rgba(200, 255, 255, 1)";
   } else {
     mynavbar.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
   }
