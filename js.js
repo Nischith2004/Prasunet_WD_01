@@ -5,14 +5,21 @@ as.forEach((a) => {
     a.style.color = "red";
   });
   a.addEventListener("mouseout", () => {
-    a.style.color = "goldenrod";
+    a.style.color = "black";
   });
 });
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 50) {
     mynavbar.style.backgroundColor = "rgba(200, 255, 255, 1)";
-  } else {
-    mynavbar.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+    as.forEach((a) => {
+      a.style.color = "black";
+    });
+  }
+  if (window.scrollY < 50) {
+    mynavbar.style.backgroundColor = "rgba(0, 0, 0, 1)";
+    as.forEach((a) => {
+      a.style.color = "white";
+    });
   }
 });
